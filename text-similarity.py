@@ -58,5 +58,29 @@ keys2_count = len(dic2.keys())
 print(keys2_count)
 print('---------------------------------------------------')
 
-key = max(keys1_count, keys2_count)
-print(key)
+key_max = max(keys1_count, keys2_count)
+print(key_max)
+
+print('---------------------------------------------------')
+
+lis_ex = []
+for k, v in dic1.items():
+    for key, value in dic2.items():
+        if k == key and v == value:
+            lis_ex.append(k)
+
+print(lis_ex)
+print('----------------------------------------------------')
+
+count = 0
+
+for i in lis_ex:
+    count = count +1
+
+print(count)
+print('--------------------------------------------------')
+
+
+per = (count/key_max)*100
+
+print(per)
