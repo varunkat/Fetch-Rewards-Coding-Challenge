@@ -1,5 +1,5 @@
 sample1_data = open('Sample-1.txt')
-sample2_data = open('Sample-2.txt')
+sample2_data = open('Sample-3.txt')
 
 str = ''
 
@@ -21,7 +21,6 @@ for i in sample1_lis1:
     for j in y:
         sample1_lis2.append(j)
 
-#print(sample1_lis2)
 
 dic1 = {}
 
@@ -44,8 +43,6 @@ for i in sample2_lis1:
     y = i.split()
     for j in y:
         sample2_lis2.append(j)
-
-#print(sample2_lis2)
 
 dic2 = {}
 
