@@ -56,5 +56,5 @@ Once the web app is running, just copy and paste the text contents for which sim
 ## Built With
 
 * [Flask](https://flask.palletsprojects.com/en/1.1.x/) - The web framework used
-* [Maven](https://www.python.org/) - Coding language used
+* [Python](https://www.python.org/) - Coding language used
 * [Docker](https://www.docker.com/) - Used to deploy application without dependencies
