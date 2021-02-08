@@ -13,20 +13,17 @@ There are a bunch of decisions made to develop Text Similarity Algorithm.
 
 ### Prerequisites
 This web app requires the following to be up and running:
+```
 *python(Environment is set up in the Docker image)
 *Flask
 *Docker
-
-
-```
-Give examples
 ```
 
 ### Installing
 
 *Install docker desktop from https://www.docker.com/
 *Fork the repository and maintain the below file structure
-
+```
  Fetch-Rewards-Coding-challenge
  |--Text-similarity
     |--templates
@@ -35,13 +32,18 @@ Give examples
     |--requirements.text
  |--Dockerfile
  |--README.md
+ ```
 
  *Open any code editor and Unix shell.
  *For docker, a dockerfile is designed so that it will be build by using compose commands. Inorder  to do this, make sure that Docker is up and running.
  *Once you are inside Fetch-Rewards-Coding-Challenge folder, use below command to compose Docker image
+```
    docker build -t text-similarity .
+```
  *After the docker image is built successfully, use the below command to assign a port number to the container on which the python flask app will be Running
+```
    docker run -d -p 80:80 text-similarity
+```
  *Enter Localhost:80 in any web browser and you can see the web application where you can copy and paste text samples in two boxes and click on generate button to get the similarity scale.
 
 Say what the step will be
