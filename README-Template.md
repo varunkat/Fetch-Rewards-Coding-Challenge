@@ -40,7 +40,7 @@ This web app requires the following to be up and running:
 ```
    docker build -t text-similarity .
 ```
- * After the docker image is built successfully, use the below command to assign a port number to the container on which the python flask app will be Running
+ * After the docker image is built successfully, use the below command to assign a port number to the container on which the python flask app will be running
 ```
    docker run -d -p 80:80 text-similarity
 ```
@@ -49,7 +49,7 @@ This web app requires the following to be up and running:
 
 ## Running the tests
 
-Once the web app is running, just copy and paste the text contents in the respective text inputs and click on generate to see the level of matched content on a scale of 0 to 1.
+Once the web app is running, just copy and paste the text contents for which similarity check must be performed in the respective text inputs and click on generate to see the level of matched content on a scale of 0 to 1.
 
 
 
