@@ -5,10 +5,10 @@ The desired output is scaled in a range from 0 to 1 based on the level of matche
 
 ## Development
 
-There are a bunch of decisions made to develop Text Similarity Algorithm.
-* The algorithm is built by using the '.' punctuation as a separator. Once the text is split into sentences, then every sentence is split by using space as separator.
-* The words which are same in both texts and the count of each word in both texts are matched. In this case, no ordering of words was done.
-* This algorithm is developed using python data structures like Lists and dictionaries. The implementation of these data structures to solve this problem is mentioned in code as comments.
+There are a bunch of decisions made to develop Text Similarity Algorithm
+* The algorithm is built by using the '.' punctuation as a separator. Once the text is split into sentences, then every sentence is split by using space as separator
+* The words which are same in both texts and the count of each word in both texts are matched. In this case, no ordering of words was done
+* This algorithm is developed using python data structures like Lists and dictionaries. The implementation of these data structures to solve this problem is mentioned in code as comments
 
 
 ### Prerequisites
@@ -34,8 +34,8 @@ This web app requires the following to be up and running:
  |--README.md
  ```
 
- * Open any code editor and Unix shell.
- * For docker, a dockerfile is designed so that it will be build by using below commands. In  order to do this, make sure that Docker is up and running.
+ * Open any code editor and Unix shell
+ * For docker, a dockerfile is designed so that it will be build by using below commands. In  order to do this, make sure that Docker is up and running
  * Once you are inside Fetch-Rewards-Coding-Challenge folder, use below command to Build Docker image
 ```
    docker build -t text-similarity .
@@ -44,7 +44,7 @@ This web app requires the following to be up and running:
 ```
    docker run -d -p 80:80 text-similarity
 ```
- * Enter Localhost:80 in any web browser and you can see the web application where you can copy and paste text samples.
+ * Enter Localhost:80 in any web browser and you can see the web application where you can copy and paste text samples
 
 
 ## Running the tests
